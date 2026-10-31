@@ -1,0 +1,12 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Belen XV//Invitacion//ES
+BEGIN:VEVENT
+UID:belen-xv-20261128@invitation.local
+DTSTAMP:20261030T000000Z
+DTSTART:20261129T000000Z
+SUMMARY:XV años de Belén
+LOCATION:Jirón El Incario 114\, Santiago de Surco\, Lima\, Perú
+DESCRIPTION:Salón de Fiestas. No ir con lila\, plateado y azul.
+END:VEVENT
+END:VCALENDAR
