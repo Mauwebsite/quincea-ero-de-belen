@@ -7,7 +7,7 @@ export function Trivia() {
   const q = questions[index];
   const hasKey = questions.every(q => q.correctOptionId.length > 0);
   const score = questions.reduce((n, q, i) => n + Number(q.correctOptionId === answers[i]), 0);
-  return <section id="trivia" className="section reveal"><img className="section-icon" src="assets/icono_trivia.webp" alt="" loading="lazy"/><span className="eyebrow">TRIVIAS</span><h2>¿Qué tanto<br/><em>me conoces?</em></h2>
+  return <section id="trivia" className="section reveal"><img className="section-icon" src="assets/icono_trivia.webp" alt="" loading="lazy"/><span className="eyebrow trivia-label">TRIVIAS</span><h2 className="trivia-heading">¿Qué tanto<br/><em>me conoces?</em></h2>
     {c.trivia.modoDemo && <p className="demo-label">MODO DEMO · Preguntas de ejemplo<br/>Se reemplazarán por las oficiales.</p>}
     {!questions.length ? <p>Próximamente: descubre cuánto conoces a Belén</p> : <div className="quiz panel" aria-live="polite">
       {done ? <><span className="eyebrow">¡COMPLETASTE LA TRIVIA!</span>{hasKey ? <h3 className="score">{score}<span> / {questions.length}</span></h3> : <h3>¡Gracias por participar!</h3>}<p>{c.trivia.modoDemo ? 'Ya conoces un poco más de esta noche.' : '¡Gracias por jugar!'}</p><button className="button" onClick={() => {setDone(false); setIndex(0); setAnswers([]);}}>VOLVER A JUGAR <Icon/></button></> : <>

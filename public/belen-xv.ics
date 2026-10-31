@@ -3,10 +3,13 @@ VERSION:2.0
 PRODID:-//Belen XV//Invitacion//ES
 BEGIN:VEVENT
 UID:belen-xv-20261128@invitation.local
-DTSTAMP:20261030T000000Z
+DTSTAMP:20261031T000000Z
+SEQUENCE:1
 DTSTART:20261129T000000Z
 SUMMARY:XV años de Belén
 LOCATION:Jirón El Incario 114\, Santiago de Surco\, Lima\, Perú
-DESCRIPTION:Salón de Fiestas. No ir con lila\, plateado y azul.
+DESCRIPTION:Salón de Fiestas. Dress code: Sport Elegante. El lila y el
+  azul estarán reservados exclusivamente para la quinceañera.
+  Agradeceremos evitar el uso de estos colores en su vestimenta.
 END:VEVENT
 END:VCALENDAR

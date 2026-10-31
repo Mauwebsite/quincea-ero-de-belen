@@ -13,7 +13,7 @@ export type TriviaQuestion = {
 export const eventConfig = {
   // Pegar aquí el enlace de INVITACIÓN A COLABORAR de Spotify de la quinceañera.
   // Un enlace de reproducción normal no habilita agregar canciones. Renovar si caduca.
-  spotifyCollaborativeUrl: '',
+  spotifyCollaborativeUrl: 'https://open.spotify.com/playlist/56GzfMjjOOZozJ9b7jEHFT?si=89j1Az7oRJSwx-eYLb68-Q&pt=e15e1e18463b2e86728e4f7231a90a68&pi=-oBdXGN7QdaRh',
   backgroundYouTubeId: 'ltjio4AM2uw',
   closingMessage: 'Hay momentos que son mágicos y compartirlos con las personas que quiero los hace perfectos',
   visuals: {
@@ -35,7 +35,7 @@ export const eventConfig = {
   whatsappRSVPMessage:
     "Hola, confirmo mi asistencia a los XV años de Belén. Mi nombre es: ",
   dressCode: {
-    warning: "No ir con lila, plateado y azul\nEl lila y el azul estarán reservados exclusivamente para la quinceañera.\n\nAgradeceremos evitar el uso de estos colores en su vestimenta.",
+    warning: "El lila y el azul estarán reservados exclusivamente para la quinceañera.\n\nAgradeceremos evitar el uso de estos colores en su vestimenta.",
     womenLabel: "MUJERES",
     menLabel: "HOMBRES",
   },
@@ -43,7 +43,7 @@ export const eventConfig = {
     "Te invito a ser parte de una noche que para mí será especial e inolvidable, y que guardaré para siempre",
   photoShareMessage:
     "Escanea este código QR y sube las fotografías y videos que captures durante la celebración para que todos podamos guardar estos lindos recuerdos.",
-  photoAlbumUrl: "", // PENDIENTE: enlace real del álbum colaborativo (no un QR inventado)
+  photoAlbumUrl: "https://photos.app.goo.gl/qryLWJZcZbbDAtSQ6", // Álbum compartido de Google Fotos; el QR se genera desde este enlace
   backgroundAudioUrl: "assets/lets-groove.mp3", // Suena al pulsar «Abrir invitación» (nunca antes de un clic). Vacío = sin música.
   musicSuggestions: {
     useSupabaseWhenConfigured: true,
