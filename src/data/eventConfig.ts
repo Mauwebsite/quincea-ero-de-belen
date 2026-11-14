@@ -13,7 +13,7 @@ export type TriviaQuestion = {
 export const eventConfig = {
   // Pegar aquí el enlace de INVITACIÓN A COLABORAR de Spotify de la quinceañera.
   // Un enlace de reproducción normal no habilita agregar canciones. Renovar si caduca.
-  spotifyCollaborativeUrl: 'https://open.spotify.com/playlist/56GzfMjjOOZozJ9b7jEHFT?si=uu-amRMVQVG2Kb7yz1BxWQ&utm_source=whatsapp&pt=571fdf8b6807b7e65a802d766939fee8&pi=aD54HTKpQ2-Hc',
+  spotifyCollaborativeUrl: 'https://open.spotify.com/playlist/56GzfMjjOOZozJ9b7jEHFT?si=b7UXVelWSg-2xK_SgP9Z-g&utm_source=whatsapp&pt=3312a1b833c4f47aa56421fea5f4f872&pi=2ck9wSmWTUyDC',
   backgroundYouTubeId: 'ltjio4AM2uw',
   closingMessage: 'Hay momentos que son mágicos y compartirlos con las personas que quiero los hace perfectos',
   visuals: {
